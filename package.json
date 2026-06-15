@@ -1,0 +1,23 @@
+{
+  "name": "mailflow-pages",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Public landing pages for MailFlow templates — deployed as a separate Vercel project so emails link to a clean URL isolated from the main app.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "16.2.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
